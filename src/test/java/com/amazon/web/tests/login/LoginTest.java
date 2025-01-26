@@ -36,6 +36,11 @@ public class LoginTest extends BaseTest{
 		log.info("Ending verifyLoginWithLessMobileNumber method");
 	}
 	
+	public void verifyLoginWithsomeSymbols() {
+		loginPage.setMobileNumber("@@@@@");
+		loginPage.clickOnContinueButton();
+	}
+	
 	@Test(priority = 2)
 	public void verifyLoginWithSpecialCharacters() throws InterruptedException {
 		log.info("Starting verifyLoginWithInvalidSpecialCharacters method");

@@ -6,7 +6,7 @@
   <test thread-count="5" name="Test">
 	  <classes>
 		   <!-- <class name="com.amazon.web.tests.login.LoginTest"></class>-->
-		   <!--<class name="com.amazon.web.tests.search.SearchTest"></class>-->
+		   <class name="com.amazon.web.tests.search.SearchTest"></class>
 		  <class name="com.amazon.web.tests.addtocart.AddToCartTest"></class>
 	  </classes>
   </test> <!-- Test -->
