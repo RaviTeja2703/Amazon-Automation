@@ -62,7 +62,7 @@ public class LoginTest extends BaseTest{
 		
 		Assert.assertEquals(loginPage.getEnterEmailMobileText(), expectedAssertionsProp.getProperty("email.enter.error.text"));
 		
-		log.info("Ending verifyLoginWithInvalidSpaces method");
+		log.info("Ending verifyLoginWithInvalid");
 	}
 
 	/*@Test(priority = 4)
